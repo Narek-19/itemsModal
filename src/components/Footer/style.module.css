@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonContainer{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.disabledButton{
+    background-color: red;
+}

@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+}
+
+.totalPrice {
+  margin-right: 25px;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+}
+
+.iconBox {
+  font-size: 25px;
+  position: relative;
+}
+
+.iconPrice::after {
+  border-radius: 20px;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 5px;
+  width: 15px;
+  height: 8px;
+  background-color: #4cd443b3;
+}
+
+.iconTotal::after {
+  border-radius: 20px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 8px;
+  width: 15px;
+  height: 8px;
+  background-color: #4cd443b3;
+}
+
+.infoText {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  font-size: 11px;
+  padding: 10px;
+}
+
+.text {
+  font-size: 9px;
+  color: rgb(65, 65, 65);
+  text-align: start;
+}

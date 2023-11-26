@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+.wrapper {
+  position: relative;
+  margin: 5px;
+  width: 50%;
+}
+
+.selectComponent {
+  width: 100%;
+  z-index: 1;
+}
+
+.atachFile {
+  display: flex;
+  justify-content: start;
+  font-size: 12px;
+  align-items: center;
+  margin: 5px;
+  width: 50%;
+  background: white;
+  
+}
+
+.selectComponent::before {
+  font-size: 9px;
+  content: "Receiver";
+  margin-top: -9px;
+  color:gray;
+  padding: 2px;
+  margin-left: 8px;
+  background-color: white;
+  position: absolute;
+  z-index: 2;
+}
